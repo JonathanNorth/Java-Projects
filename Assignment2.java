@@ -1,6 +1,9 @@
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
+/* Reads a score from the user, fixes the format and converts to an int and outputs the final grade and average. Using stringtokenizer 
+was a requirement */
+
 public class Assignment2 {
 	public static void main (String[] args){
 		Scanner keyboard = new Scanner(System.in);
