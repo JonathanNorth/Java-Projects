@@ -7,6 +7,8 @@ import java.util.Observable;
 import java.util.Observer;
 
 import javax.swing.event.*;
+
+/*Class to create GUI*/
 public class OutputFrame extends JFrame implements Observer{
 	final int WIDTH = 450, HEIGHT = 300;
 	private JTextArea outputArea;
