@@ -33,8 +33,8 @@ public class OutputFrame extends JFrame implements ActionListener{
 			outputArea.setText(stringToDisplay);
 		}
 		
-			public void actionPerformed(ActionEvent e){// I have not discussed dispatchEcvent method. 
-				                                       // This is just to show you something you may be interested in
+			public void actionPerformed(ActionEvent e){
+				                                       
 				this.dispatchEvent(new WindowEvent(this, WindowEvent.WINDOW_CLOSING));
 			}
 }
